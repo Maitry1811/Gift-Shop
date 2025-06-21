@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-image: url("images/background.jpg" );
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 70px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            color: white;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+
+        input::placeholder {
+            color: white;
+            opacity: 0.7;
+        }
+
+        .forgot {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .forgot a {
+            color: white;
+            text-decoration: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #d65292;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #8875ac;
+        }
+
+        .signup {
+            margin-top: 15px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .signup a {
+            color:white;
+            text-decoration: none;
+        }
+        i {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <i style="font-size: 24px" class="fa"><a href="index.html">&#Xf0a8</a></i>
+    <div class="container">
+        <h2>Login Now</h2>
+        <form>
+            <label for="username">Email:</label>
+            <input type="email" id="username" placeholder="Enter Email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <div class="forgot">
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit"><a href="index.html">Login Now</button>
+            <div class="signup">
+                <a href="Create account.html">Create Account</a>
+            </div>
+        </form>
+           
+    </div>
+</body>
+
+</html>

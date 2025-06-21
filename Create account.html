@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: radial-gradient( purple, #073fa1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label{
+         display: block;
+         font-size: 14px;
+         color:black;
+         text-align: left;
+
+        }
+        button {
+            background: #a965f2;
+            color:white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background: #2575fc;
+        }
+        i {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+   <i style="font-size: 24px" class="fa"><a href="index.html">&#Xf0a8</a></i>
+    <div class="container">
+        <h2>CREATE ACCOUNT</h2>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter Username">
+
+        <label for="username">Email</label>
+        <input type="email" placeholder="Enter Email">
+
+        <label for="username">Password</label>
+        <input type="password" placeholder="Enter Password">
+
+        <label for="username">Confirm Password</label>
+        <input type="password" placeholder="Enter Password again">
+
+
+        <button type="submit"><a href="index.html">Create Account</a></button>
+    </div>
+</body>
+</html>
